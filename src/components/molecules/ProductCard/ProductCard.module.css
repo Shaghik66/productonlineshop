@@ -1,0 +1,38 @@
+.productBox {
+  max-width: 300px;
+  border: 2px solid rgb(233, 139, 212);
+  padding: 20px;
+  background-color: rgb(247, 247, 247);
+}
+
+.productTitle {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.productImageDiv {
+  height: 200px;
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.productImage {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.productDescription {
+  min-height: 130px;
+  margin-block: 4px;
+  color: rgb(54, 54, 54);
+}
+
+.productPrice {
+  color: rgb(124, 124, 124);
+  font-size: 24px;
+  text-align: right;
+}
