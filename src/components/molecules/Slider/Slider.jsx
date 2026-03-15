@@ -1,7 +1,6 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
-import { NavLink } from "react-router-dom";
-
 import { Swiper, SwiperSlide } from "swiper/react";
+import { ViewProductButton } from "../../atoms/ViewProductButton/ViewProductButton";
 import { Products } from "../../../pages";
 
 import "swiper/css";
@@ -27,7 +26,7 @@ export function Slider({ products }) {
           <img className={style.image} src={product.image} alt="" />
         </SwiperSlide>
       ))}
-      <button className={style.sliderButton}><NavLink className={style.viewProductButton} to="/products">View Product</NavLink></button>
+      <ViewProductButton />
     </Swiper>
   );
 }
