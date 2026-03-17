@@ -10,7 +10,9 @@ export function Nav() {
       <NavLink className={style.navLink} to="/">Home</NavLink>
       <NavLink className={style.navLink} to="/products">Products</NavLink>
       </div>
+      <NavLink to={"/cart"}>
       <FaShoppingCart className={style.cardIcon} />
+      </NavLink>
     </nav>
   );
 }

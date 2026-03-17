@@ -1,7 +1,7 @@
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ViewProductButton } from "../../atoms/ViewProductButton/ViewProductButton";
-import { Products } from "../../../pages";
+import { Products } from "../../pages";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -18,8 +18,6 @@ export function Slider({ products }) {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
     >
       {products.map((product) => (
         <SwiperSlide className={style.sliderContainer}>

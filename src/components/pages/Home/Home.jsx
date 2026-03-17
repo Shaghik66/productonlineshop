@@ -1,5 +1,5 @@
 import React from "react";
-import { Slider } from "../../components/molecules/Slider/Slider";
+import { Slider } from "../../molecules/Slider/Slider";
 
 export const Home = ({products}) => {
   return (
