@@ -27,12 +27,17 @@
 
 .productDescription {
   min-height: 130px;
-  margin-block: 4px;
   color: rgb(54, 54, 54);
+  margin-bottom: 10px;
 }
 
 .productPrice {
   color: rgb(124, 124, 124);
   font-size: 24px;
-  text-align: right;
+  align-self: center;
+}
+
+.priceBuyDiv{
+  display: flex;
+  gap: 10px;
 }

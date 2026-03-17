@@ -11,8 +11,10 @@ export function ProductCard({ product, addToCart }) {
       </NavLink>
       <p className={style.productTitle}>{product.title}</p>
       <p className={style.productDescription}>{product.description}</p>
-      <p className={style.productPrice}>{`Price ${product.price}$`}</p>
+      <div className={style.priceBuyDiv}>
       <BuyButton addToCart={addToCart} product={product}/>
+      <p className={style.productPrice}>{`Price ${product.price}$`}</p>
+      </div>
     </div>
   );
 }
